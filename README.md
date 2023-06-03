@@ -1,5 +1,5 @@
 Setting image Dockerfile untuk dideploy.
-
+```text
 FROM python:3.11-slim
 
 ENV PYTHONUNBUFFERED True
@@ -17,5 +17,6 @@ ENV JWT_REFRESH_SECRET_KEY "REFRESH SECRET KEY"
 RUN pip install --no-cache-dir -r requirements.txt
 
 CMD exec uvicorn main:app --host 0.0.0.0 --port ${PORT}
+```
 
 ![image](https://github.com/fikriiardiansyahh/fikri/assets/72667607/16f63ae3-093d-4cc8-9df4-4a56d92b9283)
