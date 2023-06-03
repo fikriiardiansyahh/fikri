@@ -19,13 +19,13 @@ RUN pip install --no-cache-dir -r requirements.txt
 CMD exec uvicorn main:app --host 0.0.0.0 --port ${PORT}
 ```
 
-<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/16f63ae3-093d-4cc8-9df4-4a56d92b9283" width="500px">
+<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/16f63ae3-093d-4cc8-9df4-4a56d92b9283" width="700px">
 
 
 Sudah mengisi bagian instance ID dan password setelah itu, scroll kebawah
 to create instance
 
-<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/a81c2e96-53cd-4df8-8c3e-53ba5da49848" width="3500px">
+<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/a81c2e96-53cd-4df8-8c3e-53ba5da49848" width="300px">
 
 Mengubah network menjadi public agar dapat di akses oleh client
 
@@ -148,17 +148,17 @@ Klik create
 
 Sesudah klik create isi pada bagian name bucket sesuai dengan yang dibutuhkan
 
-<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/ee521dad-bb75-42b4-b0fc-5e7cc434a294"  width="500px">
+<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/ee521dad-bb75-42b4-b0fc-5e7cc434a294"  width="350px">
 
 Pada bagian “Choose how to control access to object” unchecklist pada bagian “enforce public access prevention on this bucket”.
 
-<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/0dea0450-de31-419d-816a-d4335524de81"  width="500px">
+<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/0dea0450-de31-419d-816a-d4335524de81"  width="350px">
 
 Setelah itu klik continue dan klik create.
 
 Setelah terbuat bucket, klik permissions karena masih dalam “not public”
 
-<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/1f028a37-a731-4540-8564-eb2b8e16ba1e"  width="500px">
+<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/1f028a37-a731-4540-8564-eb2b8e16ba1e"  width="700px">
 
 
 Selanjutnya scrol to “+ grand access”
@@ -184,17 +184,17 @@ Jika sudah klik done .
 
 Klik create service account untuk mendapatkan key access untuk google cloud storage .
 
-<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/3929c46f-47d9-4f88-9362-701e32e3d8a8"  width="500px">
+<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/3929c46f-47d9-4f88-9362-701e32e3d8a8"  width="450px">
 
 
 Klik add key 
 
-<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/1f181ed4-d046-46cd-b1e0-1b690125f7c9"  width="500px">
+<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/1f181ed4-d046-46cd-b1e0-1b690125f7c9"  width="200px">
 
 
 Klik create new key
 
-<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/e10f3b41-1a56-471b-a28a-25fb9bb9387d"  width="500px">
+<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/e10f3b41-1a56-471b-a28a-25fb9bb9387d"  width="450px">
 
 Pilih JSON dan klik create
 Hasil dari JSON tersebut, ubah dan sesuaikan dengan JSON key yang didapat pada service account.
