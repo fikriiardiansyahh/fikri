@@ -25,11 +25,11 @@ CMD exec uvicorn main:app --host 0.0.0.0 --port ${PORT}
 Sudah mengisi bagian instance ID dan password setelah itu, scroll kebawah
 to create instance
 
-<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/a81c2e96-53cd-4df8-8c3e-53ba5da49848" width="300px">
+<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/a81c2e96-53cd-4df8-8c3e-53ba5da49848" width="3500px">
 
 Mengubah network menjadi public agar dapat di akses oleh client
 
-<img width="300" alt="image" src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/fae32be0-3377-4019-8b1a-c0911b7cf535">
+<img width="500" alt="image" src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/fae32be0-3377-4019-8b1a-c0911b7cf535">
 
 
 Jika sudah lakukan save.
@@ -37,11 +37,11 @@ Jika sudah lakukan save.
 
 Selanjutnya membuat data base, klik create data base
 
-<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/3ea503fa-649a-4b1c-8897-ef0b5f368893" width="300px">
+<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/3ea503fa-649a-4b1c-8897-ef0b5f368893" width="500px">
 
 Selanjut mengisi nama untuk data base
 
-<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/66f4360f-36b5-4ca8-b274-7fc80bf10a5e" width="300px">
+<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/66f4360f-36b5-4ca8-b274-7fc80bf10a5e" width="500px">
 
 Lalu klik create
 
@@ -117,15 +117,15 @@ ALTER TABLE `scan_history`
 ```
 Sesudah membuat tabel dan berhasil, selanjutnya pindah pada cloud run
 
-<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/9d4e4903-f9d0-4783-9558-ca832a8708ee"  width="300px">
+<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/9d4e4903-f9d0-4783-9558-ca832a8708ee"  width="500px">
 
 Klik create service
 
-<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/da236cde-1536-4f12-825a-72ed64d538b0"  width="300px">
+<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/da236cde-1536-4f12-825a-72ed64d538b0"  width="500px">
 
 memilih Continuously deploy new revisions from a source repository untuk membuat CI/CD
 
-<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/7bb3a6c4-bf49-45d4-a17b-9f1acf14232f"  width="300px">
+<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/7bb3a6c4-bf49-45d4-a17b-9f1acf14232f"  width="500px">
 
 Sambungkan dengan github dan pilih repository yang anda inginkan.
 
@@ -133,37 +133,37 @@ Selanjutnya pilih Build Configuration dengan Dockerfile.
 
 Selanjut biarkan semua sesuai dengan default, dan pada bagian authentication pilih “allow unauthenticated invoactions” agar dapat diakses oleh public.
 
-<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/abc06721-16c6-45d2-91af-7920c1f065b8"  width="300px">
+<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/abc06721-16c6-45d2-91af-7920c1f065b8"  width="500px">
 
 Jika sudah memilih pada bagian “allow unauthenticated invoactions”, lalu klik create
 Setelah itu website berhasil di deploy.
 
-<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/96ebd29f-b3d1-4503-a9c3-c6442c8ac7a0"  width="300px">
+<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/96ebd29f-b3d1-4503-a9c3-c6442c8ac7a0"  width="500px">
 
 Membuat bucket
 
 Klik create 
 
-<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/e7d1c010-90db-4c44-97ff-37d5aa9fd2e9"  width="300px">
+<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/e7d1c010-90db-4c44-97ff-37d5aa9fd2e9"  width="500px">
 
 Sesudah klik create isi pada bagian name bucket sesuai dengan yang dibutuhkan
 
-<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/ee521dad-bb75-42b4-b0fc-5e7cc434a294"  width="300px">
+<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/ee521dad-bb75-42b4-b0fc-5e7cc434a294"  width="500px">
 
 Pada bagian “Choose how to control access to object” unchecklist pada bagian “enforce public access prevention on this bucket”.
 
-<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/0dea0450-de31-419d-816a-d4335524de81"  width="300px">
+<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/0dea0450-de31-419d-816a-d4335524de81"  width="500px">
 
 Setelah itu klik continue dan klik create.
 
 Setelah terbuat bucket, klik permissions karena masih dalam “not public”
 
-<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/1f028a37-a731-4540-8564-eb2b8e16ba1e"  width="300px">
+<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/1f028a37-a731-4540-8564-eb2b8e16ba1e"  width="500px">
 
 
 Selanjutnya scrol to “+ grand access”
 
-<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/265bc86c-4258-4444-b777-dc6d6ce8b707"  width="300px">
+<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/265bc86c-4258-4444-b777-dc6d6ce8b707"  width="500px">
 
 
 
@@ -184,17 +184,17 @@ Jika sudah klik done .
 
 Klik create service account untuk mendapatkan key access untuk google cloud storage .
 
-<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/3929c46f-47d9-4f88-9362-701e32e3d8a8"  width="300px">
+<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/3929c46f-47d9-4f88-9362-701e32e3d8a8"  width="500px">
 
 
 Klik add key 
 
-<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/1f181ed4-d046-46cd-b1e0-1b690125f7c9"  width="300px">
+<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/1f181ed4-d046-46cd-b1e0-1b690125f7c9"  width="500px">
 
 
 Klik create new key
 
-<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/e10f3b41-1a56-471b-a28a-25fb9bb9387d"  width="300px">
+<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/e10f3b41-1a56-471b-a28a-25fb9bb9387d"  width="500px">
 
 Pilih JSON dan klik create
 Hasil dari JSON tersebut, ubah dan sesuaikan dengan JSON key yang didapat pada service account.
