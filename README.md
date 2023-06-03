@@ -19,20 +19,32 @@ RUN pip install --no-cache-dir -r requirements.txt
 CMD exec uvicorn main:app --host 0.0.0.0 --port ${PORT}
 ```
 
-![image](https://github.com/fikriiardiansyahh/fikri/assets/72667607/16f63ae3-093d-4cc8-9df4-4a56d92b9283)
+<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/16f63ae3-093d-4cc8-9df4-4a56d92b9283" width="500px">
+
 
 Sudah mengisi bagian instance ID dan password setelah itu, scroll kebawah
 to create instance
-![image](https://github.com/fikriiardiansyahh/fikri/assets/72667607/a81c2e96-53cd-4df8-8c3e-53ba5da49848)
+
+<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/a81c2e96-53cd-4df8-8c3e-53ba5da49848" width="300px">
+
 Mengubah network menjadi public agar dapat di akses oleh client
-![image](https://github.com/fikriiardiansyahh/fikri/assets/72667607/56c63a2e-7932-4154-942e-129a01988228)
+
+<img width="300" alt="image" src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/fae32be0-3377-4019-8b1a-c0911b7cf535">
+
+
 Jika sudah lakukan save.
 
+
 Selanjutnya membuat data base, klik create data base
-![image](https://github.com/fikriiardiansyahh/fikri/assets/72667607/3ea503fa-649a-4b1c-8897-ef0b5f368893)
+
+<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/3ea503fa-649a-4b1c-8897-ef0b5f368893" width="300px">
+
 Selanjut mengisi nama untuk data base
-![image](https://github.com/fikriiardiansyahh/fikri/assets/72667607/66f4360f-36b5-4ca8-b274-7fc80bf10a5e)
+
+<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/66f4360f-36b5-4ca8-b274-7fc80bf10a5e" width="300px">
+
 Lalu klik create
+
 Membuat table dengan sricpt sql
 ```text
 CREATE TABLE `news` (
@@ -104,44 +116,86 @@ ALTER TABLE `scan_history`
   ADD CONSTRAINT `scan_history_ibfk_1` FOREIGN KEY (`username`) REFERENCES `user` (`username`);
 ```
 Sesudah membuat tabel dan berhasil, selanjutnya pindah pada cloud run
-![image](https://github.com/fikriiardiansyahh/fikri/assets/72667607/9d4e4903-f9d0-4783-9558-ca832a8708ee)
+
+<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/9d4e4903-f9d0-4783-9558-ca832a8708ee"  width="300px">
+
 Klik create service
-![image](https://github.com/fikriiardiansyahh/fikri/assets/72667607/da236cde-1536-4f12-825a-72ed64d538b0)
+
+<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/da236cde-1536-4f12-825a-72ed64d538b0"  width="300px">
+
 memilih Continuously deploy new revisions from a source repository untuk membuat CI/CD
-![image](https://github.com/fikriiardiansyahh/fikri/assets/72667607/7bb3a6c4-bf49-45d4-a17b-9f1acf14232f)
+
+<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/7bb3a6c4-bf49-45d4-a17b-9f1acf14232f"  width="300px">
+
 Sambungkan dengan github dan pilih repository yang anda inginkan.
+
 Selanjutnya pilih Build Configuration dengan Dockerfile.
-Selanjut biarkan semua sesuai dengan default, dan pada bagian authentication pilih “allow unauthenticated invoactions” agar dapat diakses oleh public
-![image](https://github.com/fikriiardiansyahh/fikri/assets/72667607/abc06721-16c6-45d2-91af-7920c1f065b8)
+
+Selanjut biarkan semua sesuai dengan default, dan pada bagian authentication pilih “allow unauthenticated invoactions” agar dapat diakses oleh public.
+
+<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/abc06721-16c6-45d2-91af-7920c1f065b8"  width="300px">
+
 Jika sudah memilih pada bagian “allow unauthenticated invoactions”, lalu klik create
 Setelah itu website berhasil di deploy.
-![image](https://github.com/fikriiardiansyahh/fikri/assets/72667607/96ebd29f-b3d1-4503-a9c3-c6442c8ac7a0)
-Membuat bucket 
+
+<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/96ebd29f-b3d1-4503-a9c3-c6442c8ac7a0"  width="300px">
+
+Membuat bucket
+
 Klik create 
-![image](https://github.com/fikriiardiansyahh/fikri/assets/72667607/e7d1c010-90db-4c44-97ff-37d5aa9fd2e9)
+
+<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/e7d1c010-90db-4c44-97ff-37d5aa9fd2e9"  width="300px">
+
 Sesudah klik create isi pada bagian name bucket sesuai dengan yang dibutuhkan
-![image](https://github.com/fikriiardiansyahh/fikri/assets/72667607/ee521dad-bb75-42b4-b0fc-5e7cc434a294)
+
+<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/ee521dad-bb75-42b4-b0fc-5e7cc434a294"  width="300px">
+
 Pada bagian “Choose how to control access to object” unchecklist pada bagian “enforce public access prevention on this bucket”.
-![image](https://github.com/fikriiardiansyahh/fikri/assets/72667607/0dea0450-de31-419d-816a-d4335524de81)
+
+<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/0dea0450-de31-419d-816a-d4335524de81"  width="300px">
+
 Setelah itu klik continue dan klik create.
+
 Setelah terbuat bucket, klik permissions karena masih dalam “not public”
-![image](https://github.com/fikriiardiansyahh/fikri/assets/72667607/1f028a37-a731-4540-8564-eb2b8e16ba1e)
+
+<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/1f028a37-a731-4540-8564-eb2b8e16ba1e"  width="300px">
+
+
 Selanjutnya scrol to “+ grand access”
-![image](https://github.com/fikriiardiansyahh/fikri/assets/72667607/265bc86c-4258-4444-b777-dc6d6ce8b707)
-![image](https://github.com/fikriiardiansyahh/fikri/assets/72667607/7b84e843-6785-4672-bb09-5e57723d8bb6)
+
+<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/265bc86c-4258-4444-b777-dc6d6ce8b707"  width="300px">
+
+
+
+
+<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/7b84e843-6785-4672-bb09-5e57723d8bb6"  width="500px">
+
 Tambahkan pada new principals yaitu “ allUsers dan allAuthenticatedUsers” dan role sebagai storage viewer.
+
 Klik save dan selesai.
+
 Pindah pada IAM & ADMIN.
+
 Buat pada service account.
+
 Pada bagian “Grant this service account access to project” tambahkan role yaitu “storage admin”.
+
 Jika sudah klik done .
 
 Klik create service account untuk mendapatkan key access untuk google cloud storage .
-![image](https://github.com/fikriiardiansyahh/fikri/assets/72667607/3929c46f-47d9-4f88-9362-701e32e3d8a8)
+
+<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/3929c46f-47d9-4f88-9362-701e32e3d8a8"  width="300px">
+
+
 Klik add key 
-![image](https://github.com/fikriiardiansyahh/fikri/assets/72667607/1f181ed4-d046-46cd-b1e0-1b690125f7c9)
+
+<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/1f181ed4-d046-46cd-b1e0-1b690125f7c9"  width="300px">
+
+
 Klik create new key
-![image](https://github.com/fikriiardiansyahh/fikri/assets/72667607/e10f3b41-1a56-471b-a28a-25fb9bb9387d)
+
+<img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/e10f3b41-1a56-471b-a28a-25fb9bb9387d"  width="300px">
+
 Pilih JSON dan klik create
 Hasil dari JSON tersebut, ubah dan sesuaikan dengan JSON key yang didapat pada service account.
 ```text
