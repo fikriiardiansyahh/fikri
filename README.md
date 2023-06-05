@@ -61,7 +61,7 @@ Lalu klik create
  
 Membuat table dengan sricpt sql
 
-```text
+```sql
 CREATE TABLE `news` (
   `news_id` int NOT NULL,
   `title` varchar(255) DEFAULT NULL,
