@@ -12,7 +12,6 @@ Here are some of the related repositories which are part of the same project:
 | 📱 Mobile Development | [MD Repository](https://github.com/ASAH-Bangkit-2023/MD.git) |
 | 🤖 Machine Learning | [ML Repository](https://github.com/ASAH-Bangkit-2023/ML) |
 
-
 # Deployment Steps
 
 ## 1. Cloud SQL
@@ -44,13 +43,21 @@ Here are some of the related repositories which are part of the same project:
 
 - Save the changes.
 
-## 3. Create API Key (if not already created)
+## 3. Create Maps API Key
 
-- Provide instructions on how to create an API key if one doesn't exist.
+- Follow the instructions below to create an API key if one doesn't exist:
+  1. Go to the [Google Cloud Console](https://console.cloud.google.com/).
+  2. Select the project or create a new project.
+  3. Enable the Maps JavaScript API for your project.
+  4. Generate an API key.
+  5. Copy the generated API key.
 
-## 4. Prepare FastAPI (if not already prepared)
+## 4. Prepare FastAPI (Using this exist repository)
 
-- Clone the repository from the existing repo.
+- Clone the repository from the existing repo:
+  ```bash
+  git clone https://github.com/your-repo.git
+  ```
 
 ## 5. Prepare Dockerfile
 
