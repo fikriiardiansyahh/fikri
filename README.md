@@ -13,7 +13,7 @@ Here are some of the related repositories which are part of the same project:
 
 # 
 Setting image Dockerfile untuk dideploy.
-```text
+```docker
 FROM python:3.11-slim
 
 ENV PYTHONUNBUFFERED True
