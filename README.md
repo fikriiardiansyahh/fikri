@@ -57,15 +57,10 @@ Selanjut mengisi nama untuk data base
 
 <img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/66f4360f-36b5-4ca8-b274-7fc80bf10a5e" width="500px">
 
-Lalu klik creat
-e
- <details>
- <summary>
- ````
+Lalu klik create
+ 
 Membuat table dengan sricpt sql
- ````
- </summary>
- <details>
+
 ```text
 CREATE TABLE `news` (
   `news_id` int NOT NULL,
@@ -135,7 +130,6 @@ ALTER TABLE `point_system`
 ALTER TABLE `scan_history`
   ADD CONSTRAINT `scan_history_ibfk_1` FOREIGN KEY (`username`) REFERENCES `user` (`username`);
 ```
- </details>
  
 Membuat table dengan sricpt sql
 
