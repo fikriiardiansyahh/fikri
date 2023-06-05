@@ -108,7 +108,7 @@ To test the deployed application, you can use tools like `curl` or API testing t
 curl -X GET https://your-app-url.com/api/endpoint
 ```
 
-Replace `**your-app-url.com**` with the actual URL of your deployed application and `**/api/endpoint**` with the desired endpoint to test.
+Replace `your-app-url.com` with the actual URL of your deployed application and `/api/endpoint` with the desired endpoint to test.
 
 You can also use Postman to send requests to the API and verify the responses.
 
