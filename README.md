@@ -57,9 +57,14 @@ Selanjut mengisi nama untuk data base
 
 <img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/66f4360f-36b5-4ca8-b274-7fc80bf10a5e" width="500px">
 
-Lalu klik create
-
+Lalu klik creat
+e
+ <details>
+ <summary>
+ ````
 Membuat table dengan sricpt sql
+ ````
+ </summary>
 ```text
 CREATE TABLE `news` (
   `news_id` int NOT NULL,
@@ -129,6 +134,10 @@ ALTER TABLE `point_system`
 ALTER TABLE `scan_history`
   ADD CONSTRAINT `scan_history_ibfk_1` FOREIGN KEY (`username`) REFERENCES `user` (`username`);
 ```
+ </details>
+ 
+Membuat table dengan sricpt sql
+
 Sesudah membuat tabel dan berhasil, selanjutnya pindah pada cloud run
 
 <img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/9d4e4903-f9d0-4783-9558-ca832a8708ee"  width="500px">
