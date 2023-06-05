@@ -65,6 +65,7 @@ e
 Membuat table dengan sricpt sql
  ````
  </summary>
+ <details>
 ```text
 CREATE TABLE `news` (
   `news_id` int NOT NULL,
