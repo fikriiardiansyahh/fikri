@@ -48,7 +48,7 @@ Here are some of the related repositories which are part of the same project:
 - Follow the instructions below to create an API key if one doesn't exist:
   1. Go to the [Google Cloud Console](https://console.cloud.google.com/).
   2. Select the project or create a new project.
-  3. Enable the Maps JavaScript API for your project.
+  3. Enable the Places API for your project.
   4. Generate an API key.
   5. Copy the generated API key.
 
