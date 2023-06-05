@@ -111,22 +111,3 @@ curl -X GET https://your-app-url.com/api/endpoint
 Replace `your-app-url.com` with the actual URL of your deployed application and `/api/endpoint` with the desired endpoint to test.
 
 You can also use Postman to send requests to the API and verify the responses.
-
-## 8. Contributing
-
-Contributions to the project are welcome! If you would like to contribute, follow these steps:
-
-1. Fork the repository from [GitHub](https://github.com/your-repo-url).
-2. Clone the forked repository to your local machine.
-3. Create a new branch for your feature or bug fix.
-4. Make the necessary changes in your branch.
-5. Commit your changes and push them to your forked repository.
-6. Create a pull request from your forked repository to the original repository.
-7. Provide a clear description of your changes in the pull request.
-8. Wait for the maintainers to review and merge your pull request.
-
-Thank you for your contributions! Together, we can make the project even better.
-
-```javascript
-Make sure to replace `your-app-url.com` with the actual URL of your deployed application and `https://github.com/your-repo-url` with the URL of your project's GitHub repository.
-```
