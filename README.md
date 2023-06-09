@@ -1,6 +1,6 @@
 # ☁️ASAH: Cloud Computing
 ## 📑About Our Project
-
+  ASAH (Aplikasi Sortir Sampah) is an application aimed at encouraging the community to manage waste in an appropriate manner and provides rewards when users successfully manage their waste correctly. In our application, users are required to sort their waste first, and then they can dispose of or donate their waste to recycling agencies in their vicinity.
 ## 🖥️Related Project Repositories
 
 Here are some of the related repositories which are part of the same project:
@@ -9,6 +9,14 @@ Here are some of the related repositories which are part of the same project:
 | --- | --- |
 | 📱 Mobile Development | [MD Repository](https://github.com/ASAH-Bangkit-2023/MD.git) |
 | 🤖 Machine Learning | [ML Repository](https://github.com/ASAH-Bangkit-2023/ML) |
+
+## 👷‍♂️CGP Architecture 
+<p align="center">
+  <img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/1591ad9a-a41a-484c-9844-5edc4a81f489" width="500px">
+</p>
+
+## 💼API Documentation
+untuk melihat API documentation dapat mengunjungi link berikut [API Documentation](https://cloud-computing-asah-hhoivlttoa-uc.a.run.app/docs)
 
 # 📋Deployment Steps
 
@@ -105,9 +113,9 @@ Here are some of the related repositories which are part of the same project:
 
 ## 4. Prepare FastAPI (Using this exist repository) 🔥
 - Clone the repository from the existing repo:
-  ```bash
-  git clone https://github.com/your-repo.git
-  ```
+```bash
+ git clone https://github.com/your-repo.git
+```
 ## 5. Prepare Dockerfile 📄
 - Setting image Dockerfile untuk dideploy.
 
