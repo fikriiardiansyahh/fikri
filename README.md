@@ -1,7 +1,7 @@
-# ASAH: Cloud Computing
-## About Our Project
+# ☁️ASAH: Cloud Computing
+## 📑About Our Project
 
-## Related Project Repositories
+## 🖥️Related Project Repositories
 
 Here are some of the related repositories which are part of the same project:
 
@@ -10,9 +10,9 @@ Here are some of the related repositories which are part of the same project:
 | 📱 Mobile Development | [MD Repository](https://github.com/ASAH-Bangkit-2023/MD.git) |
 | 🤖 Machine Learning | [ML Repository](https://github.com/ASAH-Bangkit-2023/ML) |
 
-# Deployment Steps
+# 📋Deployment Steps
 
-## 1. Cloud SQL
+## 1. Cloud SQL 💾
 <p align="center">
   <img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/6010b58c-e52f-4133-81fb-aca8c21fae08" width="500px">
 </p>
@@ -31,7 +31,7 @@ Here are some of the related repositories which are part of the same project:
 
 - Jika sudah lakukan save
 
-## 2. Cloud Storage
+## 2. Cloud Storage 🛒
 - Klik create Bucket
 <p align="center">
   <img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/6cdf462d-6053-4243-9dfe-9759d6a45d7a" width="500px">
@@ -65,7 +65,7 @@ Here are some of the related repositories which are part of the same project:
 
 - Klik save dan selesai.
 
-## 3. Create Maps API Key
+## 3. Create Maps API Key 🔑
 - Search “Google Maps ” pada bagian search di GCP
 <p align="center">
   <img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/f8b83bf7-0f55-4fc6-a2f4-6fe229243fca" width="500px">
@@ -103,12 +103,12 @@ Here are some of the related repositories which are part of the same project:
   <img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/71427553-5f45-47f5-b19c-4ab4ffd2a672" width="500px">
 </p>
 
-## 4. Prepare FastAPI (Using this exist repository)
+## 4. Prepare FastAPI (Using this exist repository) 🔥
 - Clone the repository from the existing repo:
   ```bash
   git clone https://github.com/your-repo.git
   ```
-## 5. Prepare Dockerfile
+## 5. Prepare Dockerfile 📄
 - Setting image Dockerfile untuk dideploy.
 
 ```dockerfile
@@ -130,7 +130,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 CMD exec uvicorn main:app --host 0.0.0.0 --port ${PORT}
 ```
 
-## 6. Cloud Run
+## 6. Cloud Run 🏃‍♂️☁️
 <p align="center">
   <img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/e5e4812a-2159-4ee9-8e36-6cbd2ba0e6f8" width="500px">
 </p>
@@ -158,7 +158,7 @@ CMD exec uvicorn main:app --host 0.0.0.0 --port ${PORT}
   <img src="https://github.com/fikriiardiansyahh/fikri/assets/72667607/1c5c729a-7078-42c6-9c4a-700c2c46f9a7" width="500px">
 </p>
 
-## 7. Testing the Application
+## 7. Testing the Application 📱📟
 To test the deployed application, you can use tools like `curl` or API testing tools like Postman. Here is an example of how to test the API using `curl`:
 
 ```bash
