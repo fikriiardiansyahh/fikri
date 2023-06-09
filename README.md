@@ -16,7 +16,7 @@ Here are some of the related repositories which are part of the same project:
 </p>
 
 ## 💼API Documentation
-untuk melihat API documentation dapat mengunjungi link berikut [API Documentation](https://cloud-computing-asah-hhoivlttoa-uc.a.run.app/docs)
+Untuk melihat API documentation dapat mengunjungi link berikut [API Documentation](https://cloud-computing-asah-hhoivlttoa-uc.a.run.app/docs)
 
 # 📋Deployment Steps
 
